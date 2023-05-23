@@ -1,0 +1,22 @@
+.FunctionalContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.IconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 12px;
+  margin-left: 50px;
+
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  border: none;
+  cursor: pointer;
+
+  background-color: rgba(247, 248, 252, 1);
+  gap: 5px;
+}

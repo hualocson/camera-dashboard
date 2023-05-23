@@ -1,0 +1,5 @@
+export const GET_USER_INFO = 'GET_USER_INFO';
+export const GET_USER_INFO_SUCCESS = 'GET_USER_INFO_SUCCESS';
+export const GET_USER_INFO_FAILED = 'GET_USER_INFO_FAILED';
+
+export const LOGOUT = 'LOGOUT';

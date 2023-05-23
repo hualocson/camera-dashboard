@@ -1,0 +1,175 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: rgba(54, 55, 64, 1);
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 380px;
+  height: 582px;
+
+  background-color: white;
+  border: 1px solid rgba(223, 224, 235, 1);
+  border-radius: 8px;
+}
+
+.Logo {
+  margin-top: 34px;
+  margin-bottom: 32px;
+
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+.TopContainer {
+  margin-bottom: 48px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.SubTitle1 {
+  margin-bottom: 12px;
+
+  color: #A4A6B3;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.SubTitle2 {
+  color: #A4A6B3;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Title {
+  margin-bottom: 12px;
+
+  font-size: 24px;
+  font-weight: 700;
+  color: #252733;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% - 64px);
+}
+
+.Form input {
+  height: 42px;
+  padding: 11px 16px;
+
+  color: rgba(75, 80, 109, 1);
+  background-color: #DDE2FF;
+  border: 1px solid #F0F1F7;
+  border-radius: 8px;
+}
+
+.LabelContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 24px;
+}
+
+.Label {
+  font-weight: 700;
+  font-size: 12px;
+  color: #9FA2B4;
+}
+
+.Label1 {
+  font-size: 10px;
+  color: #9FA2B4;
+  background-color: white;
+  border: none;
+}
+
+.Button {
+  height: 48px;
+  margin-top: 24px;
+  margin-bottom: 18px;
+
+  color: white;
+  background-color: #3751FF;
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.Link {
+  color: rgba(55, 81, 255, 1);
+}
+
+.PasswordContainer {
+  margin-top: 6px;
+
+  position: relative;
+}
+
+.EmailContainer {
+  position: relative;
+}
+
+.Unsee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: 14px;
+  bottom: 50%;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  transform: translateY(50%);
+
+  z-index: 1;
+}
+
+.Unsee img {
+  height: 16px;
+}
+
+.Input {
+  width: 100%;
+}
+
+.Errors {
+  position: absolute;
+  bottom: -18px;
+
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.Loader {
+  display: inline-block;
+  border: 4px solid white;
+  border-left-color: rgba(223, 224, 235, 0.8);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

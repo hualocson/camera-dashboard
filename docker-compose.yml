@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  client:
+    build: client
+    restart: unless-stopped
+    container_name: client-container
+
+  nginx:
+    build: nginx
+    restart: unless-stopped
+    container_name: nginx-container
+    ports:
+      - 81:80
+    environment:
+      - NGINX_ENVSUBST_OUTPUT_DIR=/etc/nginx
+      - CLIENT_HOST=client
+      - CLIENT_PORT=3000

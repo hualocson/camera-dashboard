@@ -1,0 +1,137 @@
+.ContainerInfo {
+  display: flex;
+  align-items: center;
+
+  margin-top: 40px;
+}
+
+.ContainerInfo p {
+  margin-right: 4px;
+  margin-left: 19px;
+
+  font-weight: 350;
+}
+
+.InputNameWarning {
+  width: 255px;
+  height: 31px;
+  padding: 2px 104px 0 9px;
+
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.ContainerSetting {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.Header {
+  display: flex;
+
+  height: 40px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ebebeb;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.Header > p {
+  margin-left: 19px;
+}
+
+.Header > img {
+  margin-right: 12px;
+}
+
+.Center {
+  padding-top: 19px;
+  padding-bottom: 30px;
+
+  background-color: #ffffff;
+}
+
+.CenterTitle {
+  margin-left: 15px;
+  margin-bottom: 11px;
+
+  font-weight: 300;
+}
+
+.Center > span {
+  margin-left: 18px;
+}
+
+.Center > input {
+  width: 72px;
+  height: 23px;
+
+  margin-left: 12px;
+  margin-right: 16px;
+  padding-left: 4px;
+
+  border-style: none;
+  background-color: #d9d9d9;
+}
+
+.Select {
+  width: 100px;
+  height: 23px;
+
+  margin-left: 18px;
+  padding-left: 4px;
+  margin-bottom: 20px;
+
+  border-style: none;
+  background-color: #d9d9d9;
+}
+
+.Center2 {
+  display: flex;
+
+  padding-top: 22px;
+  padding-bottom: 26px;
+  margin-bottom: 31px;
+
+  background-color: #ffffff;
+}
+
+.ImgPerson {
+  margin-left: 122px;
+}
+
+.Center3 {
+  display: flex;
+
+  padding-top: 32px;
+  padding-bottom: 14px;
+  margin-bottom: 38px;
+
+  background-color: #ffffff;
+}
+
+.ImgWarning {
+  margin-left: 122px;
+}
+
+.ContainerButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Button {
+  width: 121px;
+  height: 37px;
+
+  margin-bottom: 28px;
+  margin-right: 42px;
+
+  cursor: pointer;
+  border-radius: 8px;
+  border-style: none;
+
+  color: #ffffff;
+  background: #878787;
+}

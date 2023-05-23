@@ -1,0 +1,8 @@
+.CameraItem {
+  width: 540px;
+  height: 320px;
+  margin: 9px 10px 9px 10px;
+
+  border-radius: 8px;
+  background-color: #000;
+}

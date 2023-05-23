@@ -1,0 +1,162 @@
+.Container {
+  width: 100%;
+  min-height: 280px;
+
+  padding-bottom: 28px;
+
+  background-color: white;
+  border: 1px solid rgb(223, 223, 235);
+  border-radius: 8px;
+}
+
+.TitleContainer {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 32px;
+}
+
+.TitleContainerRight {
+  display: flex;
+  align-items: center;
+}
+
+.Title {
+  font-family: 'Muli';
+  color: #252733;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+
+.IconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #4b506d;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  gap: 9px;
+}
+
+.Table {
+  font-size: 14px;
+}
+
+.RowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 90px;
+
+  margin-top: 12px;
+
+  transform: translate(0px, 12px);
+}
+
+.HeadContainer {
+  font-family: 'Mulish', sans-serif;
+  margin-bottom: 12px;
+  padding-right: 50px;
+
+  position: relative;
+}
+
+.FilterInput {
+  margin-left: 34px;
+  margin-right: 10px;
+  height: 24px;
+}
+
+.Divider {
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  border: 1.5px solid rgba(223, 224, 235, 1);
+}
+
+.HeadDivider {
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+
+  border: 1.5px solid rgba(223, 224, 235, 1);
+}
+
+.HeadRowContainer {
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: bold;
+}
+
+.HeadRowContainer input {
+  width: 100px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+.HeadRowContainer div {
+  max-width: 165px;
+  flex: 1 1 100%;
+}
+
+.RowContainer input {
+  width: 100px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+.RowContainer div {
+  max-width: 165px;
+  flex: 1 1 100%;
+}
+
+.BodyContainer div.RowContainer {
+  padding-right: 50px;
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.Loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Loading::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  margin-bottom: 8px;
+  background-color: #ccc;
+  animation: loading 1s ease-in-out infinite;
+}
+
+.IsRead {
+  font-weight: 300;
+}

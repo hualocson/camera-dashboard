@@ -1,0 +1,19 @@
+.Header {
+  height: 100vh;
+  width: calc(100% - 240px);
+  margin-left: 240px;
+
+  position: absolute;
+
+  background: rgba(247, 248, 252, 1);
+}
+
+.Page {
+  width: calc(100% - 320px);
+  margin-left: 285px;
+  margin-top: 125px;
+
+  position: absolute;
+
+  z-index: 1;
+}

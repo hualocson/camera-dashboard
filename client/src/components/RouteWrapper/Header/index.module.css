@@ -1,0 +1,95 @@
+.HeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 36px;
+  margin-left: 11px;
+  margin-right: 33px;
+}
+
+.HeaderTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.Title {
+  margin-left: 16px;
+
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.HeaderIcon {
+  height: 18px;
+  width: 18px;
+}
+
+.Icon {
+  color: #C5C7CD;
+}
+
+.Icon:hover {
+  color: #3751FF;
+  cursor: pointer;
+}
+
+.Divider {
+  height: 32px;
+  border: 1px solid rgba(223, 224, 235, 1);
+}
+
+.RightContainer {
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+}
+
+.Circle {
+  width: 40px;
+  height: 40px;
+
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.ProfileContainer {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  gap: 16px;
+}
+
+.DropDown {
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.DropDownMenu {
+  margin-top: 8px;
+
+  position: absolute;
+  bottom: -30px;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f5f1de;
+}
+
+.LogoutButton {
+  height: 30px;
+
+  font-size: 14px;
+
+  border: none;
+}
+
+.LogoutButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+
+  cursor: pointer;
+}

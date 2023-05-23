@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"), url("../assets/fonts/static/Mulish-ExtraLight.ttf") format("opentype");
+  font-weight: 100 200;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"), url("../assets/fonts/static/Mulish-Light.ttf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"), url("../assets/fonts/static/Mulish-Medium.ttf") format("opentype");
+  font-weight: 400 500 normal;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"), url("../assets/fonts/static/Mulish-Bold.ttf") format("opentype");
+  font-weight: 600 700 bold;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"), url("../assets/fonts/static/Mulish-ExtraBold.ttf") format("opentype");
+  font-weight: 800 900;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: local("Muli"), url("../assets/fonts/static/Muli-ExtraLight.ttf") format("opentype");
+  font-weight: 100 200;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: local("Muli"), url("../assets/fonts/static/Muli-Light.ttf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: local("Muli"), url("../assets/fonts/static/Muli.ttf") format("opentype");
+  font-weight: 400 500 normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: local("Muli"), url("../assets/fonts/static/Muli-Bold.ttf") format("opentype");
+  font-weight: 600 700 bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

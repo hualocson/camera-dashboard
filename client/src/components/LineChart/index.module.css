@@ -1,0 +1,8 @@
+.TopContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DatePickerContainer {
+  width: auto;
+}

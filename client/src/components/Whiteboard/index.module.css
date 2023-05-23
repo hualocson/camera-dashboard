@@ -1,0 +1,19 @@
+.Container {
+  width: 100%;
+  height: calc(100vh - 200px);
+
+  background-color: white;
+  border: 1px solid rgb(223, 224, 235);
+  border-radius: 8px;
+}
+
+.Title {
+  margin: 32px;
+
+  color: #252733;
+  font-family: 'Muli';
+  font-size: 19px;
+  font-weight: bold;
+
+  letter-spacing: 0.4px;
+}
